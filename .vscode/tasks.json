@@ -25,14 +25,14 @@
         },
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc build clox",
-            "command": "/usr/bin/gcc",
+            "label": "C/C++: docker build clox",
+            "command": "docker/build.sh",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}/src/main.c",
+                "src/main.c",
                 "-o",
-                "${workspaceFolder}/bin/clox"
+                "bin/clox"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"

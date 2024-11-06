@@ -27,7 +27,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: gcc build clox"
+            "preLaunchTask": "C/C++: docker build clox"
         }
 
     ]
