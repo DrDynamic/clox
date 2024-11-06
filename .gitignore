@@ -1,4 +1,7 @@
 bin/
+pkg/
+pkr/**/*
+
 # Prerequisites
 *.d
 
