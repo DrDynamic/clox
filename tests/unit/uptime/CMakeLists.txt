@@ -9,7 +9,7 @@ set_property(TARGET
                  LINK_FLAGS
                      "${DEFAULT_LINK_FLAGS}")
 
-add_cmocka_test(test_uptime
+add_test(test_uptime
                 SOURCES test_uptime.c
                 COMPILE_OPTIONS ${DEFAULT_C_COMPILE_FLAGS}
                 LINK_LIBRARIES cmocka::cmocka)
